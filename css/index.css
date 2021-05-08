@@ -140,26 +140,35 @@ header{
 }
 /* メインタイトル２ */
 .main-title__two{
-  height:300px;
+  /* height:300px; */
   background:rgb(31, 31, 31);
-  display: flex;
+  padding:80px 0;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
 }
 .main-title__two-txt{
   width:75%;
   color:white;
   padding-top:10px;
+  margin:0 auto;
 }
 .main-title__two-txt h1{
   font-size:30px;
-  margin-bottom:30px;
+  padding-bottom:30px;
 }
 .main-title__two-txt p{
   font-size:16px;
   line-height: 1.6;
   letter-spacing:-0.2px ;
 }
+@media screen and (max-width: 768px){
+.main-title__two-txt{
+    width: 85%;
+}
+}
+
 /* サービス */
 .service{
   width:75%;
